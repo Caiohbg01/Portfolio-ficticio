@@ -34,7 +34,9 @@ body{
     color:var(--cor-terciaria);
     text-decoration: none;
 }
-
+.cabecalho__menu_link:hover{
+    transform: scale(1.1); /* Aumenta 10% */
+}
 .apresentacao{ 
     padding: 5% 15%;
     display: flex;
@@ -88,8 +90,9 @@ color: var(--cor-terciaria);
     color: var(--cor-secundaria); 
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
+    transition: background-color 0.3s;
 }
 .apresentacao__imagem{
     width: 50%;
